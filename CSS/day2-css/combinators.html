@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* p {
+        background-color: violet;
+      } */
+
+      /* Descendant selector (space) */
+      /* div p {
+        background-color: violet;
+      } */
+
+      /* Child selector (>) */
+      /* div > p {
+        background-color: red;
+      } */
+
+      /* Adjacent sibling selector (+) */
+      /* div + p {
+        background-color: green;
+      } */
+
+      /* General sibling selector(~) */
+      div ~ p {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <p>P1</p>
+    <div>
+      <p>Div P1</p>
+      <p>Div P2</p>
+      <span>
+        <p>Span P1</p>
+      </span>
+    </div>
+    <p>P2</p>
+    <p>P3</p>
+  </body>
+</html>
