@@ -1,0 +1,29 @@
+@import "./variables";
+@import "./btnStyles";
+@import "./flexCenter";
+
+.container {
+  .card-profile {
+    h1 {
+      background-color: $primaryColor;
+      color: $secondaryColor;
+    }
+    p {
+      @extend .globalStyle;
+    }
+    button {
+      @extend .globalStyle;
+    }
+  }
+}
+button {
+  @extend .globalStyle;
+}
+
+.container1 {
+  @include flexCenter(50vh, violet);
+}
+
+.container2 {
+  @include flexCenter(80vh, purple);
+}
