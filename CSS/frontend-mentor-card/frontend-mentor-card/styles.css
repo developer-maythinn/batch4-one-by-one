@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Hanken Grotesk;
+  src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Hanken Grotesk;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body .container {
+  width: 45vw;
+  background-color: pink;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+body .container .left-side {
+  width: 50%;
+  background-image: linear-gradient(#7857ff, #2e2be9);
+  border-radius: 30px;
+  padding: 35px 47px 47px;
+  text-align: center;
+}
+
+body .container .left-side .result-title {
+  color: #c8c7ff;
+  font-size: 20px;
+}
+
+body .container .left-side .circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-image: linear-gradient(#4e21ca, rgba(36, 33, 202, 0));
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body .container .left-side .circle .number {
+  font-size: 70px;
+  font-weight: 800;
+  color: white;
+  line-height: 1;
+}
+
+body .container .left-side .circle p:last-child {
+  color: #c8c7ff;
+}
+
+body .container .left-side h1 {
+  font-size: 30px;
+  color: white;
+}
+
+body .container .left-side p {
+  color: #c8c7ff;
+  padding: 0px 10px;
+  padding-top: 14px;
+}
+/*# sourceMappingURL=styles.css.map */
