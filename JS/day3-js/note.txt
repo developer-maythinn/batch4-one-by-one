@@ -101,6 +101,7 @@ for (i = 0; i < 10; i++) {
   text += "The number is " + i + "<br>";
 }
 
+Homework
 JavaScript Labels ( a label name and a colon: )
 labelname:
 break labelname;
@@ -175,7 +176,7 @@ An IIFE (Immediately Invoked Function Expression)
   let x = "Hello!!";  // I will invoke myself
 })();
 
-3. Hoisting
+4. Hoisting
 let test = myfunc(3);
  function myfunc(num1) {
      console.log(num1 + num1)
