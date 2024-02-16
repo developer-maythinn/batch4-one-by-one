@@ -61,6 +61,8 @@ const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 console.log(beasts.indexOf('bison'));
 // expected output: 1
 
+
+Homework
 // start from index 2
 console.log(beasts.indexOf('bison', 2));
 // expected output: 4
@@ -121,6 +123,7 @@ for (const value of iterator) {
 // expected output: "b"
 // expected output: "c"
 
+End Homework
 ************************************************************** 
 Number Methods
 https://www.w3schools.com/Jsref/jsref_parseint.asp
@@ -132,6 +135,8 @@ parseInt("10 years");   // returns 10
 parseInt("years 10");   // returns NaN 
 
 **************************************************************
+Homework
+
 String Methods and Properties
 length => length of a string
 indexOf() => the index of (the position of) the first occurrence of a specified text
