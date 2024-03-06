@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  height: 100vh;
+  background-image: linear-gradient(to left, #243b55, #141e30);
+}
+
+.main-section .main-section-row .bg-img {
+  border-radius: 69% 31% 35% 65% / 45% 38% 62% 55%;
+  background-image: linear-gradient(to right, #4ac29a, #bdfff3);
+  width: 300px;
+  height: 300px;
+}
+
+.main-section .main-section-row .bg-img i {
+  font-size: 5rem;
+}
+/*# sourceMappingURL=style.css.map */
